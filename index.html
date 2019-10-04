@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML 5 audio Player</title>
+  <link rel = "stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+	<div id ="container">
+        <div id = "audio-img">
+            <img class ="cover"/>
+        </div>
+        <div id ="audio-player">
+            <div id = "audio-info">
+                <span class = "artist"></span> - <span class ="title"></span>
+            </div>
+            <input id="volume" type="range" min="0" max="10" value="5">
+            </br>
+            <div id="audio-buttons">
+			<span>
+                <button id="prev"></button>
+                <button id="play"></button>
+                <button id="pause"></button>
+                <button id="stop"></button>
+                <button id="next"></button>
+			</span>
+            </div>
+            
+            <!-- <div class='clickable'>
+                    <div class='display'>
+                         <div class="progress"></div>
+                    </div>
+                  </div> -->
+
+                  
+            <div class ="clearfix"></div>
+            <div id="tracker">
+                <div id ="progressBar">
+                  <span id = "progress"></span>
+            	</div>
+				<span id ="duration"></span>
+			</div>
+            <div class ="clearfix"></div>
+            <ul id ="playlist">
+				<li song="Christian Loffler - Ry.mp3" cover="cover1.jpg" artist="Christian Loffler">Ry.mp3</li>
+                <li song="Hugo Kant - Erhu.mp3" cover="cover2.jpg" artist="Hugo Kant">Erhu.mp3</li>
+                <li song="Hugo Kant - In The Woods.mp3" cover="cover3.jpg" artist="Hugo Kant">In the Woods.mp3</li>
+                <li song="Hugo Kant - Leave Me Alone.mp3" cover="cover4.jpg" artist="Hugo Kant">Leave me Alone.mp3</li>
+                <li song="Hugo Kant - Theres No Need To Be Frightened.mp3" cover="cover5.jpg" artist="Hugo Kant">Theres No Need To Be Frightened.mp3</li>
+                <li song="Snk  Snaf - Hidden.mp3" cover="cover6.jpg" artist="Snk  Snaf ">Hidden.mp3</li>
+                <li song="Roxy Music - In Every Dream Home a Heartache.mp3" cover="cover7.jpg" artist="Roxy Music">In Every Dream Home a Heartache.mp3</li>
+                <li song="Alt-J - Taro.mp3" cover="cover8.jpg" artist="Alt-Jk">Taro.mp3</li>
+                <li song="Band of Horses - The Funeral.mp3" cover="cover9.jpg" artist="Band of Horses">Funeral</li>
+                <li song="Sample - sample.mp3" cover="cover10.jpg" artist="Sample">Sample.mp3</li>
+                <li song="Ben Howard - Promise.mp3" cover="cover11.jpg" artist="Ben Howard">Promise.mp3</li>
+                <li song="Betty and the Boy - The Wreckage.mp3" cover="cover12.jpg" artist="Betty and the Boy">The Wreckage.mp3</li>
+            </ul>
+        </div>
+  	</div>
+  	<script src = "js/jquery.js"></script>
+  	<script src = "js/main.js"></script>
+</body>
+</html>
